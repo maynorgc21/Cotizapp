@@ -7,10 +7,25 @@
     <title>COTIZAPP</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
-<body>
+<body>     
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+<div class="container-fluid">
+    <a class="navbar-brand ">Navbar</a>
+    <form class="d-flex">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#">Iniciar Sesión</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Quiero Vender</a>
+        </li>
+      </ul>
+    </form>
+  </div>
+</nav>
     <div class="container">
         <div class="alert alert-success mt-5" role="alert">
-            Boostrap 5 is working!
+            Boostrap 5 is saworking!
         </div>    
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
