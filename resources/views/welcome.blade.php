@@ -24,6 +24,10 @@
         background-color:#b591f9;
         border-color:#FFCC00;
       }
+      mark{
+        background-color:#845EC2;
+        border-color:#845EC2;
+      }
       .btn-violeta-suave:hover{
         background-color:#fff;
         border-color:#fff;
@@ -58,6 +62,11 @@
       }
       .ver:hover{
         color:#FFCC00 !important;
+      }
+      .border-amarillo{
+        border-style: solid;
+        border-color: #FFCC00;
+        border-width: 2px;
       }
     </style>
     <script src="https://kit.fontawesome.com/2a5eeeb7ec.js" crossorigin="anonymous"></script>
@@ -138,10 +147,10 @@
     </div>
   </div>
   <div class="row">
-    <div class="col text-center"><img class="text-center" src="{{asset('/img/carroejemplo.jpg')}}" width="75%" alt=""><h5 class="text-violeta">Suzuki Alto</h5><p class="text-violeta">2020</p></div>
-    <div class="col text-center"><img src="{{asset('/img/carroejemplo.jpg')}}" width="75%" alt=""><h5 class="text-violeta">Mazda </h5><span class="text-violeta"> 2010</span></div>
-    <div class="col text-center"><img src="{{asset('/img/carroejemplo.jpg')}}" width="75%" alt=""><h5 class="text-violeta">Toyota Agia</h5><span class="text-violeta">2012</span></div>
-    <div class="col text-center"><img src="{{asset('/img/carroejemplo.jpg')}}" width="75%" alt=""><h5 class="text-violeta">Suzuki Jinmy</h5><span class="text-violeta">2018</span></div>
+    <div class="col text-center"><img class="text-center border-amarillo"  src="{{asset('/img/carroejemplo.jpg')}}" width="75%" alt=""><h5 class="text-violeta">Suzuki Alto</h5><p class="text-violeta">2020</p></div>
+    <div class="col text-center"><img class="text-center border-amarillo"  src="{{asset('/img/carroejemplo.jpg')}}" width="75%" alt=""><h5 class="text-violeta">Mazda </h5><span class="text-violeta"> 2010</span></div>
+    <div class="col text-center"><img class="text-center border-amarillo"  src="{{asset('/img/carroejemplo.jpg')}}" width="75%" alt=""><h5 class="text-violeta">Toyota Agia</h5><span class="text-violeta">2012</span></div>
+    <div class="col text-center"><img class="text-center border-amarillo"  src="{{asset('/img/carroejemplo.jpg')}}" width="75%" alt=""><h5 class="text-violeta">Suzuki Jinmy</h5><span class="text-violeta">2018</span></div>
   </div><br>
   <div class="row">
     <div class="col">
@@ -162,6 +171,55 @@
 
   </div>
 </div>
+<section id="interes" class="interes p-3">
+<div class="container">
+  <div class="row">
+    <div class="col-10">
+      <h4 class="text-violeta"> Te podría interesar</h4>
+    </div>
+    <div class="col">
+      <a href="#" class="text-violeta nav-link ver"> Ver Más > </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col text-center"><img class="text-center border-amarillo" src="{{asset('/img/carroejemplo.jpg')}}" width="75%" alt=""><h5 class="text-violeta">Suzuki Alto</h5><p class="text-violeta">2020</p></div>
+    <div class="col text-center"><img class="text-center border-amarillo" src="{{asset('/img/carroejemplo.jpg')}}" width="75%" alt=""><h5 class="text-violeta">Mazda </h5><span class="text-violeta"> 2010</span></div>
+    <div class="col text-center"><img class="text-center border-amarillo" src="{{asset('/img/carroejemplo.jpg')}}" width="75%" alt=""><h5 class="text-violeta">Toyota Agia</h5><span class="text-violeta">2012</span></div>
+    <div class="col text-center"><img class="text-center border-amarillo" src="{{asset('/img/carroejemplo.jpg')}}" width="75%" alt=""><h5 class="text-violeta">Suzuki Jinmy</h5><span class="text-violeta">2018</span></div>
+  </div>
+</div>
+</section>
+<div class="card  text-white ">
+  <img class="card-img" src="{{asset('/img/fondo2.png')}}" alt="Card image">
+  <div class="card-img-overlay align-middle" >
+  <h3 class=" card-title text-center text-white align-middle">Que el financiamiento no sea un problema <br> para adquirir tu nuevo carro</h3><br>
+  <h3 class="  text-center text-amarillo"><mark class="text-amarillo">Cotiza y compra en Cotizapp Cars</mark></h3>
+  </div>
+</div>
+<br>
+<section id="footer" class="footer p-3 bg-violeta">
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <p class="text-amarillo">¿Necesitas ayuda?</p>
+      <ul class="text-amarillo">
+        <li>Preguntas Frecuentes</li>
+        <li>info@cotizapp.com</li>
+      </ul>
+    </div>
+    <div class="col">
+    <p class="text-amarillo">Redes Sociales</p>
+    <ul class="text-amarillo">
+        <li>Facebook</li>
+        <li>Instagram</li>
+      </ul>    </div>
+  </div>
+  <div class="row">
+  <span class=" text-center text-amarillo">Cotizapp 2021</span>
+
+</div>
+</div>
+</section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>
